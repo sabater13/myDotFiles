@@ -116,3 +116,10 @@ export PATH="/usr/local/texlive/2025/bin/x86_64-linux:$PATH"
 
 # Created by `pipx` on 2025-06-26 10:55:49
 export PATH="$PATH:/home/esabater/.local/bin"
+
+# start powerline daemon for better performance
+powerline-daemon -q
+# Enable Powerline
+if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
+   source /usr/share/powerline/bindings/bash/powerline.sh
+fi
