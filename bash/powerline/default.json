@@ -39,9 +39,14 @@
 				"priority": 50
 			},
 			{
-				"function": "powerline.segments.common.vcs.branch",
-				"priority": 40
+				"function": "powerline.segments.common.time.date",
+				"name": "date",
+				"priority": 60,
+				"args": {
+					"format": "%H:%M"
+				}
 			}
 		]
-	}
+	},
+	"newline": true
 }
